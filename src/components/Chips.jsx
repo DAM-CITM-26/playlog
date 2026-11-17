@@ -2,7 +2,7 @@
 export default function Chips({ opciones, valor, onCambio }) {
   return (
     //Caja con los botnes
-    <div className="chips">
+    <div className="chips" role="group">
       {opciones.map((opcion) => (
         //Recorremos la lista de opciones, por cada se crea un boton.
         //key: Identificador unico para cada boton
